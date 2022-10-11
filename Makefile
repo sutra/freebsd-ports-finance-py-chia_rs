@@ -1,5 +1,5 @@
 PORTNAME=	chia_rs
-PORTVERSION=	0.1.4
+PORTVERSION=	0.1.11
 CATEGORIES=	finance devel python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
@@ -17,57 +17,62 @@ GH_ACCOUNT=	Chia-Network
 
 CARGO_CRATES=	autocfg-1.1.0 \
 		bitflags-1.3.2 \
-		bitvec-0.22.3 \
-		block-buffer-0.9.0 \
-		bls12_381-0.5.0 \
+		bitvec-1.0.1 \
+		block-buffer-0.10.0 \
+		bls12_381-0.7.0 \
 		bumpalo-3.9.1 \
 		byteorder-1.4.3 \
+		crypto-common-0.1.6 \
 		cfg-if-1.0.0 \
-		clvmr-0.1.20 \
+		clvmr-0.1.23 \
 		console_error_panic_hook-0.1.7 \
-		cpufeatures-0.1.5 \
-		digest-0.9.0 \
-		ff-0.10.1 \
-		funty-1.2.0 \
+		cpufeatures-0.2.0 \
+		ctor-0.1.23 \
+		digest-0.10.3 \
+		ff-0.12.0 \
+		funty-2.0.0 \
 		generic-array-0.14.5 \
-		group-0.10.0 \
+		ghost-0.1.6 \
+		group-0.12.0 \
 		hex-0.4.3 \
 		indoc-0.3.6 \
 		indoc-impl-0.3.6 \
 		instant-0.1.12 \
+		inventory-0.1.4 \
+		inventory-impl-0.1.4 \
 		js-sys-0.3.52 \
 		lazy_static-1.4.0 \
 		libc-0.2.126 \
 		lock_api-0.4.7 \
 		log-0.4.17 \
-		num-bigint-0.4.0 \
-		num-integer-0.1.44 \
-		num-traits-0.2.14 \
+		num-bigint-0.4.3 \
+		num-integer-0.1.45 \
+		num-traits-0.2.15 \
 		once_cell-1.12.0 \
 		opaque-debug-0.3.0 \
-		pairing-0.20.0 \
+		pairing-0.22.0 \
 		parking_lot-0.11.2 \
 		parking_lot_core-0.8.5 \
 		paste-0.1.18 \
 		paste-impl-0.1.18 \
 		proc-macro-hack-0.5.19 \
-		proc-macro2-1.0.39 \
+		proc-macro2-1.0.40 \
 		pyo3-0.15.1 \
 		pyo3-build-config-0.15.2 \
 		pyo3-macros-0.15.1 \
 		pyo3-macros-backend-0.15.1 \
-		quote-1.0.18 \
-		radium-0.6.2 \
+		quote-1.0.20 \
+		radium-0.7.0 \
 		rand_core-0.6.3 \
 		redox_syscall-0.2.13 \
 		scoped-tls-1.0.0 \
 		scopeguard-1.1.0 \
 		serde-1.0.137 \
 		serde_derive-1.0.137 \
-		sha2-0.9.5 \
+		sha2-0.10.2 \
 		smallvec-1.8.0 \
 		subtle-2.4.1 \
-		syn-1.0.95 \
+		syn-1.0.98 \
 		tap-1.0.1 \
 		typenum-1.15.0 \
 		unicode-ident-1.0.0 \
@@ -85,7 +90,7 @@ CARGO_CRATES=	autocfg-1.1.0 \
 		winapi-0.3.9 \
 		winapi-i686-pc-windows-gnu-0.4.0 \
 		winapi-x86_64-pc-windows-gnu-0.4.0 \
-		wyz-0.4.0
+		wyz-0.5.0
 
 CARGO_BUILD=	no
 CARGO_INSTALL=	no
